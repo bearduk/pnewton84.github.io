@@ -29,7 +29,7 @@ h1 {
 }
 h2 {
   position: absolute;
-  top: 60%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: raleway, sans-serif;
@@ -37,9 +37,4 @@ h2 {
   line-height: 60px;
   text-align: center;
   padding: 20px;
-  /*/////////MAGIC//HERE////////*/
-  background: #000316;
-  color: white;
-  mix-blend-mode: multiply;
-  /*////////////////////////////*/
 }
