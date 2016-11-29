@@ -37,4 +37,9 @@ h2 {
   line-height: 60px;
   text-align: center;
   padding: 20px;
+  /*/////////MAGIC//HERE////////*/
+  background: #000316;
+  color: white;
+  mix-blend-mode: multiply;
+  /*////////////////////////////*/
 }
