@@ -27,3 +27,14 @@ h1 {
   mix-blend-mode: multiply;
   /*////////////////////////////*/
 }
+h2 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: raleway, sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  padding: 20px;
+}
