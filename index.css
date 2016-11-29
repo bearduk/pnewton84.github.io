@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:900);
+*{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background: url(http://unsplash.it/3200/1600?image=973) no-repeat no-repeat center center;
+  background-size: cover;
+}
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: raleway, sans-serif;
+  font-size: 80px;
+  line-height: 60px;
+  text-align: center;
+  padding: 20px;
+  /*/////////MAGIC//HERE////////*/
+  background: #111;
+  color: white;
+  mix-blend-mode: multiply;
+  /*////////////////////////////*/
+}
