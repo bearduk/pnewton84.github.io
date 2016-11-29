@@ -21,11 +21,8 @@ h1 {
   line-height: 60px;
   text-align: center;
   padding: 20px;
-  /*/////////MAGIC//HERE////////*/
   background: #2D7EA9;
-  color: white;
-  mix-blend-mode: multiply;
-  /*////////////////////////////*/
+
 }
 h2 {
   position: absolute;
