@@ -30,9 +30,7 @@ h1 {
 
 ////////////////////////////
 
-@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-
-
-awesome.min.css');
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
 #social {
   margin: 20px 10px;
@@ -75,7 +73,6 @@ awesome.min.css');
       background: #fff;
       border-color: #00ABE3;
 }
-
 
 /* linkedin button class*/
 .linkedinBtn{
