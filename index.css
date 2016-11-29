@@ -22,7 +22,7 @@ h1 {
   text-align: center;
   padding: 20px;
   /*/////////MAGIC//HERE////////*/
-  background: #ffffff;
+  background: #2D7EA9;
   color: white;
   mix-blend-mode: multiply;
   /*////////////////////////////*/
@@ -34,7 +34,7 @@ h2 {
   transform: translate(-50%, -50%);
   font-family: raleway, sans-serif;
   font-size: 40px;
-  color: ffffff;
+  color: 2D7EA9;
   line-height: 60px;
   text-align: center;
   padding: 20px;
