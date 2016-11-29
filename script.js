@@ -1,4 +1,4 @@
-<script type="text/javascript">
+<script>
 var words = document.getElementsByClassName('word');
 var wordArray = [];
 var currentWord = 0;
