@@ -8,8 +8,11 @@ html, body {
   width: 100%;
 }
 body {
-  background: url(http://unsplash.it/3200/1600?image=973) no-repeat no-repeat center center;
+  background: url(http://unsplash.it/3200/1600?image=973) no-repeat no-repeat 
+
+center center;
   background-size: cover;
+text-align: center;
 }
 h1 {
   position: absolute;
@@ -23,17 +26,69 @@ h1 {
   padding: 20px;
   background: #2D7EA9;
   color: white;
-
 }
-h3 {
-  position: absolute;
-  top: 63%;
-  left: 50%;
-  transform: translate(-50%, -0%);
-  font-family: raleway, sans-serif;
-  font-size: 40px;
-  color: white;
-  line-height: 60px;
+
+////////////////////////////
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-
+
+awesome.min.css');
+
+#social {
+  margin: 20px 10px;
   text-align: center;
-  padding: 0px;
+}
+
+.smGlobalBtn { /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border:2px solid #ddd; /* add border to the buttons */
+    box-shadow: 0 3px 3px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+      
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #fff;
+      border-color: #00ABE3;
+}
+
+
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color: #0094BC;
+      background: #fff;
+      border-color: #0094BC;
 }
