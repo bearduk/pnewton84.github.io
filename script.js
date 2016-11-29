@@ -1,4 +1,5 @@
-<script>
+<SCRIPT LANGUAGE="JavaScript">
+	
 var words = document.getElementsByClassName('word');
 var wordArray = [];
 var currentWord = 0;
@@ -53,4 +54,4 @@ function splitLetters(word) {
 
 changeWord();
 setInterval(changeWord, 4000);
-</script>
+</SCRIPT>
